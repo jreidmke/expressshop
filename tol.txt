@@ -1,0 +1,35 @@
+This won't be too bad. An Express Shopping list. 
+
+First, we'll structure out the modules
+
+Then the routes
+
+server.js
+app.js
+router.js
+fakeDb.js*
+
+what does an item looks like?
+
+{'name': "cheetos", "price": 1.45}
+
+Except with double quotes at the beginning :P
+
+OK, let's check those routes.
+
+GET /items returns array of items
+
+POST /items adds item to shopping list (accepts JSON => app.use(express.json())) and responds with msg:
+
+{added: {name: food price: 6.66}}
+
+GET /items/:name returns C
+
+PATCH /items/:name takes in JSON and returns 
+
+{updated: {“name”: “popsicle”, “price”: 1.45}}
+
+DELETE /items/:name returns {message: deleted}
+
+
+
